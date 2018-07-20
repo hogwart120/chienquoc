@@ -1,4 +1,3 @@
-<?php
 var login = require("facebook-chat-api");
 var fs = require('fs');
 var answeredThreads = {};
@@ -34,4 +33,3 @@ login({email: "msi.official.vn@gmail.com", password: "kid01666462766"}, function
 		});
     });
 });
-?>
