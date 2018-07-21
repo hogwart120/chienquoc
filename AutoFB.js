@@ -13,6 +13,5 @@ login({email: "msi.official.vn@gmail.com", password: "kid01666462766"}, function
 			if(statusFB[0] == "ON"){
 				api.sendMessage("Hiện tại tôi không thể trả lời tin nhắn!", message.threadID);
 		}
-		
 	});	
 });
