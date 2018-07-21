@@ -1,7 +1,7 @@
 var login = require("facebook-chat-api");
 var statusFB = {};
 login({email: "msi.official.vn@gmail.com", password: "kid01666462766"}, function callback (err, api) {
-	//if(err) return console.error(err);
+	if(err) return console.error(err);
     api.listen(function callback(err, message) {
         //console.log(message.body);
                 if(message.body === '/on'){
